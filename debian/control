@@ -1,0 +1,21 @@
+Source: godocc
+Section: util
+Priority: optional
+Maintainer: Jamie Curnow <jc@jc21.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 4.3.0.1
+Homepage: https://github.com/inancgumus/godocc
+Vcs-Git: https://github.com/inancgumus/godocc.git
+Vcs-Browser: https://github.com/inancgumus/godocc
+
+Package: godocc
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: Like "go doc" but with colors.
+  godocc comes with many colors! Configure the color of the output by setting the following env variable:
+  $ GODOCC_STYLE="dracula"
+  My favorite styles: dracula, monokai, fruity, native, paraiso-dark, pygments, rainbow_dash, rrt, solarized-dark, swapoff, vim.
+  Other styles: abap, algol, arduino, autumn, borland, bw, colorful, emacs, friendly, github, igor, lovelace,
+  manni, monokailight, murphy, paraiso-light, pastie, perldoc, solarized-light256, solarized-light, tango, trac, vs, xcode.
